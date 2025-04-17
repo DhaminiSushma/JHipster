@@ -29,7 +29,7 @@ Feature: Bank Account Endpoint
     Then User checks if the Status Code is 200
     Examples:
       | id   |
-      | 1001 |
+      | 1007 |
       | 1002 |
       | 1    |
       | 2    |
@@ -49,7 +49,7 @@ Feature: Bank Account Endpoint
     Then User checks if the Status Code is 200
     Examples:
       | id   | name    |
-      | 1001 | Klee    |
+      | 1007 | Klee    |
       | 1002 | zhongli |
 
   Scenario Template: Invalid patch Bank Account operation
@@ -65,7 +65,7 @@ Feature: Bank Account Endpoint
     Then User checks if the Status Code is 200
     Examples:
       | id   | name    | balance   |
-      | 1001 | Klee    | 20000.0   |
+      | 1007 | Klee    | 20000.0   |
       | 1002 | Zhongli | 1000000.0 |
       | 1003 | Albedo  | 1000001.0 |
 
