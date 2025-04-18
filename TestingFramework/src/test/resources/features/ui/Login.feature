@@ -5,9 +5,9 @@ Feature: Login Action
     When User enters valid Username "<username>", valid Password "<password>" and RememberMe "<rememberMe>"
     Then Page Title After Successfully Login In will be "Welcome, Java Hipster!"
     Examples:
-      | username | password | rememberMe|
-      | admin    | admin    | true      |
-      | user     | user     | true      |
+      | username | password | rememberMe |
+      | admin    | admin    | true       |
+      | user     | user     | true       |
       | admin    | admin    | false      |
       | user     | user     | false      |
 

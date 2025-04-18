@@ -31,7 +31,6 @@ public class ApiUtils {
                 .then()
                 .log().all()
                 .extract().response();
-
     }
 
     public Response post(String api, Object object){
@@ -42,7 +41,6 @@ public class ApiUtils {
                 .then()
                 .log().all()
                 .extract().response();
-
     }
 
     public Response put(String api, Object object){
@@ -53,7 +51,6 @@ public class ApiUtils {
                 .then()
                 .log().all()
                 .extract().response();
-
     }
 
     public Response patch(String api, Object object){
@@ -64,7 +61,6 @@ public class ApiUtils {
                 .then()
                 .log().all()
                 .extract().response();
-
     }
 
     public Response delete(String api){
