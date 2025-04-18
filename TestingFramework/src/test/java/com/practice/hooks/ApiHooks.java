@@ -11,7 +11,7 @@ public class ApiHooks {
 
     @Before("@api")
     public void setUp() {
-        ConfigLoader configLoader = new ConfigLoader();
+        ConfigLoader configLoader = ConfigLoader.getInstance();
         RestAssured.baseURI = configLoader.getProperty("url");
         contentType = configLoader.getProperty("content.type");
         loginApiPath = configLoader.getProperty("authenticate.path");

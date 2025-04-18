@@ -3,7 +3,7 @@ package com.practice.api.stepdefinitions;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.practice.api.utils.ApiUtils;
 import com.practice.api.utils.AuthenticationUtil;
-import com.practice.models.BankAccount;
+import com.practice.api.models.BankAccount;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
