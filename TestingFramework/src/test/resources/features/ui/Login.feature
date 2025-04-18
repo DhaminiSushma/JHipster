@@ -20,4 +20,5 @@ Feature: Login Action
       | admin    | user     | true       |
       | user     | admin    | false      |
       | admi n   | admin    | false      |
-      | user     |u ser     | true       |
+      | user     | u ser    | true       |
+      | use r    | u ser    | true       |
