@@ -1,6 +1,6 @@
 package com.practice.ui.stepdefinitions;
 
-import com.practice.hooks.WebDriverHooks;
+import com.practice.hooks.UIHooks;
 import com.practice.ui.pages.HomePage;
 import com.practice.ui.pages.LoginPage;
 import io.cucumber.java.en.Given;
@@ -10,7 +10,7 @@ import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 
 public class LoginActionSteps {
-    private final WebDriver driver = WebDriverHooks.getDriver();
+    private final WebDriver driver = UIHooks.getDriver();
     private LoginPage loginPage;
     private HomePage homePage;
 

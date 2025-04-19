@@ -9,7 +9,7 @@ import org.openqa.selenium.WebDriver;
 
 import java.time.Duration;
 
-public class WebDriverHooks {
+public class UIHooks {
     private static WebDriver driver;
     ConfigLoader configLoader = ConfigLoader.getInstance();
     DriverFactory driverFactory;
